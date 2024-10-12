@@ -296,7 +296,7 @@ in {
       Unit = {
         Description = "KDE wallpaper setter for stylix";
         Documentation = activateDocs;
-        After = [ "plasma-plasmashell.service" ];
+        After = [ "home-manager-hiibolt.service" ];
       };
       Service = {
         ExecStart = "${activator}/bin/stylix-set-kde-wallpaper";
